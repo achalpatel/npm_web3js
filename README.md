@@ -11,9 +11,9 @@ So if you are facing such errors, here is the guide that worked for me.
 2. Install nodejs with default options selected. Most important is to check the option asking for installing all essential files like python, c++. So after the nodejs is installed, wait for a while and Powershell will pop up and continue installing essential libraries.
 3. Open command prompt from location : pathofnodejsfolder/
 4. 
-    npm install --upgrade request
-    npm install --upgrade mkdirp
-    npm install web3
+    npm install --upgrade request,  
+    npm install --upgrade mkdirp,  
+    npm install web3  
    (I was facing vulnerability errors when I was performing npm install web3. But when I tried to upgrade mkdirp and request, it worked.) 
 
 I hope it works! Thank you.
